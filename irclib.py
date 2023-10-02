@@ -60,7 +60,9 @@ Current limitations:
 
 .. [IRC specifications] http://www.irchelp.org/irchelp/rfc/
 """
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import bisect
 import re
 import select
